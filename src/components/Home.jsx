@@ -23,7 +23,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="lg:py-24 px-24 py-10">
+        <div className="lg:py-24 px-24 py-32">
           <img className="lg:w-[450px] lg:h-[400px] w-[250px] h-[220px]" src={Chair} alt="chair" />
         </div>
       </div>
