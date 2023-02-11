@@ -1,9 +1,10 @@
 import React from "react";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="text-center text-2xl font-bold py-3">
-      Hello world !
+    <div>
+      <Home />
     </div>
   );
 }
