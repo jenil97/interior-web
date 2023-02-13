@@ -2,6 +2,7 @@ import React from "react";
 import Collection from "./components/Collection";
 import Company from "./components/Company";
 import Home from "./components/Home";
+import Letter from "./components/Letter";
 import Nature from "./components/Nature";
 import Navbar from "./components/Navbar";
 import Places from "./components/Places";
@@ -17,6 +18,7 @@ function App() {
       <Nature />
       <Places />
       <Company />
+      <Letter />
     </div>
   );
 }
