@@ -1,5 +1,6 @@
 import React from "react";
 import Collection from "./components/Collection";
+import Company from "./components/Company";
 import Home from "./components/Home";
 import Nature from "./components/Nature";
 import Navbar from "./components/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <Collection />
       <Nature />
       <Places />
+      <Company />
     </div>
   );
 }
