@@ -3,6 +3,7 @@ import Collection from "./components/Collection";
 import Home from "./components/Home";
 import Nature from "./components/Nature";
 import Navbar from "./components/Navbar";
+import Places from "./components/Places";
 import Studio from "./components/Studio";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Studio />
       <Collection />
       <Nature />
+      <Places />
     </div>
   );
 }
