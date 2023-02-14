@@ -48,7 +48,9 @@ const Footer = () => {
           <div className="w-full lg:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6 text-white">
               <div className="w-full lg:w-4/12 px-4 ml-auto">
-                <span className="block text-lg font-semibold mb-2">Categories</span>
+                <span className="block text-lg font-semibold mb-2">
+                  Categories
+                </span>
                 <ul className="list-unstyled">
                   <li>
                     <a
@@ -129,13 +131,7 @@ const Footer = () => {
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-white font-semibold py-1">
               Copyright © <span id="get-current-year">2022 </span>
-              <a
-                href="#/"
-                className="text-blueGray-500 hover:text-gray-800"
-                target="_blank"
-                rel="noreferrer"
-              />
-              &amp; Design & Developed by Jenil
+              <a href="#/">&amp; Design & Developed by Jenil</a>
             </div>
           </div>
         </div>
